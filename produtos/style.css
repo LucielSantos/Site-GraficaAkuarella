@@ -1,0 +1,54 @@
+body{
+    background-image: url(../img/bgBody.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/*navbar*/
+#imgNav{
+    width: 220px;
+    height: 56px;
+}
+
+#navbar{
+    background-color: rgba(58, 58, 58, 0.7);
+    padding: 2px 100px;
+}
+
+/*inicio*/
+.inicio{
+    background-image: url(../img/cartao.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 10em;
+    vertical-align: middle;
+    font-size: 5em;
+    color: white;
+    line-height: 15em;
+    text-align: center;
+}
+
+/*Corpo*/
+.corpo{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.651);
+}
+.tamanho{
+    height: 70%;
+    width: 80%;
+}
+.formulario{
+    background-color: rgba(255, 255, 255, 0.651);
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+/*footer*/
+footer{
+    background-color: black;
+    height: 3em;
+    color: rgba(255, 255, 255, 0.651);
+    text-align: right;
+    padding-top: .7em;
+}

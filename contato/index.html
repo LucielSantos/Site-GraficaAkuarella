@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Contato</title>
+
+    
+    <!-- css Externo -->
+    <link rel="stylesheet" href="style.css">
+    <!-- css Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- js Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <!--Icones do Font Awesome-->
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.5.0/css/all.css' integrity='sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU' crossorigin='anonymous'>
+    <!--Icone-->
+    <link rel="shortcut icon" href="../icone.png" type="image/x-icon">
+</head>
+<body>
+    <!--Cabeçalho-->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-toggler" id="navbar">
+            <a class="navbar-brand" href="../index.html"> <img src="../img/logoCompleto.png" alt="" id="imgNav"> </a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../produtos/index.html">Produtos</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Contato</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../sobre/index.html">Sobre</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>        
+    </header>
+    <section>
+        <article class="inicio">
+            Entre em Contato!
+        </article>
+        <article>
+            <div class="container corpo">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <h4>Onde Estamos</h4>
+                            <br>
+                            <p>
+                                Rua João Cardoso Rolim - N° 373 <br>
+                                Centro - Três Cahoeiras-RS  
+                            </p>
+                            <a href="https://goo.gl/maps/JL6QFd9gsKz" target="_blank">
+                                    <i class="fas fa-map-marker-alt icone"></i>
+                                    Ir Até a Grafica Akuarella
+                            </a>
+                            <br>
+                            <br>
+                            <i class="fas fa-phone icone"></i>
+                            (51) 3667-1282
+                            <br>
+                            <br>
+                            <i class="fab fa-whatsapp icone"></i>
+                            (51) 9.8116-3298
+                            <br>
+                            <br>
+                            <i class="far fa-envelope icone"></i>
+                            gakuarella@yahoo.com.br
+                            <br>
+                            <br>
+                            <a href="https://www.facebook.com/graficaakuarellatc" target="_blank">
+                                <i class="fab fa-facebook icone"></i>
+                                facebook.com/graficaakuarellatc
+                            </a>
+                            <br>
+                            <br>
+                            <i class="far fa-clock icone"></i>
+                            De Segunda a Sexta: 08:00hs-12:00hs e 13:30hs-18:30hs
+                        </div>
+                        <div class="col-md-7">
+                            <h4>Mande-nos uma mensagem!</h4>
+                            <br>
+                            <form>
+                                <div class="form-group">
+                                    <label for="email">Informe seu E-mail</label>
+                                    <input type="email" id="email" class="form-control" placeholder="Seu E-mail">
+                                </div>
+                                <div class="form-row">
+                                    <div class="col">
+                                        <label for="nome">Infome seu Nome</label>
+                                        <input type="text" id="nome" class="form-control" placeholder="Seu Nome">
+                                    </div>
+                                    <div class="col">
+                                        <label for="sobrenome">Infome seu Sobrenome</label>
+                                        <input type="text" id="sobrenome" class="form-control" placeholder="Seu Sobre Nome">
+                                    </div>                                    
+                                </div>
+                                <div class="form-group">
+                                    <label for="assubto">Assunto</label>
+                                    <input type="text" id="assunto" class="form-control" placeholder="Assunto">
+                                </div>
+                                <div class="form-group">
+                                    <label for="menssagem">Mensagem</label>
+                                    <textarea id="mensagem" rows="5" class="form-control" placeholder="Sua Mensagem"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-dark" id="enviar">Enviar</button>
+                            </form>
+                        </div>
+                    </div>
+            </div>
+        </article>
+    </section>
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md">
+                        Developed by: Luciel Vitor
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

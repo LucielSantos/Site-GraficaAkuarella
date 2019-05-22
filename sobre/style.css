@@ -1,0 +1,62 @@
+body{
+    background-image: url(../img/bgBody.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+a:link{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+a:visited{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+a:active{
+    text-decoration: none;
+    color: black;
+}
+
+/*navbar*/
+#imgNav{
+    width: 220px;
+    height: 56px;
+}
+
+#navbar{
+    background-color: rgba(58, 58, 58, 0.7);
+    padding: 2px 100px;
+}
+/*inicio*/
+.inicio{
+    background-image: url(../img/cartao.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 8.5em;
+    vertical-align: middle;
+    font-size: 5em;
+    color: white;
+    line-height: 15em;
+    text-align: center;
+}
+
+/*corpo*/
+.corpo{
+    background-color: rgba(255, 255, 255, 0.651);
+    padding: 2% !important;
+    color: black;
+}
+
+.progress{
+    margin-bottom: 1em;
+}
+/*footer*/
+footer{
+    background-color: black;
+    height: 3em;
+    color: rgba(255, 255, 255, 0.651);
+    text-align: right;
+    padding-top: .7em;
+}

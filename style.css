@@ -1,0 +1,142 @@
+body{
+    background-image: url(img/bgBody.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+a{
+    
+}
+a:link{
+    text-decoration: none;
+    color: black;
+}
+a:visited{
+    text-decoration: none;
+    color: black;
+}
+a:active{
+    text-decoration: none;
+    color: black;
+}
+
+/*lema*/
+.lema{
+    background-image: url(img/bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    height: 150px !important;
+    font-size: 1.5em;
+    color: black;
+}
+.transparente{
+    background-color: rgba(255, 255, 255, 0.575);
+    height: 150px;
+}
+
+/*navbar*/
+#imgNav{
+    width: 220px;
+    height: 56px;
+}
+
+#navbar{
+    background-color: rgba(58, 58, 58, 0.7);
+    padding: 2px 100px;
+}
+
+/*carrossel*/
+#carousel{
+    font-size: 5em;
+}
+.pracima{
+    margin-bottom: .8em;
+}
+.pracima2{
+    margin-bottom: 1.5em;
+}
+
+/*demo*/
+.demo-cartao{
+    font-size: 1.5em;
+    height: 10em;
+    background-image: url(img/demo/cartao.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    vertical-align: middle !important;
+    text-align: center;
+    padding-top: 10%;
+    color: rgb(0, 0, 0) !important;
+}
+.demo-folder{
+    font-size: 1.5em;
+    height: 10em;
+    background-image: url(img/demo/folder.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    text-align: center;
+    padding-top: 10%;
+    backface-visibility: hidden;   
+}
+.demo-banner{
+    font-size: 1.5em;
+    height: 10em;
+    background-image: url(img/demo/banner.png) ;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    text-align: center;
+    padding-top: 10%;
+    color: black;
+}
+.demo-envelope{
+    font-size: 1.5em;
+    height: 10em;
+    background-image: url(img/demo/envelope.png) ;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    text-align: center;
+    padding-top: 10%;
+    color: black;
+}
+.demo-convite{
+    font-size: 1.5em;
+    height: 10em;
+    background-image: url(img/demo/convite.png) ;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    text-align: center;
+    padding-top: 10%;
+    color: black;
+}
+.demo-mais{
+    font-size: 1.5em;
+    height: 10em;
+    background-image: url(img/demo/mais.png) ;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    text-align: center;
+    padding-top: 10%;
+    color: black;
+}
+.linha{
+    background-color: green;
+    height: 3em ;
+    text-align: center;
+    padding-top: .5em;
+    font-size: 1.5em;
+    color: white;
+}
+/*footer*/
+footer{
+    background-color: black;
+    height: 3em;
+    color: rgba(255, 255, 255, 0.651);
+    text-align: right;
+    padding-top: .7em;
+}
